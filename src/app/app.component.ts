@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { GifsService } from './gifs/services/gifs.service';
+import { Gif } from './gifs/interfaces/gifs.interface';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'gifs-app';
+
+  // constructor( private gifsService: GifsService ) {}
+
+
+
 }
